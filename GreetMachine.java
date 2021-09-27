@@ -1,6 +1,6 @@
 public class GreetMachine {
     
-    private String DEFAULT_NAME = "Earthlings";
+    private String DEFAULT_NAME = "Residents of Earth";
     
     private String name;
     
@@ -13,6 +13,6 @@ public class GreetMachine {
     }
     
     public String toString() {
-        return null;
+        return "Greetings " + name;
     }
 }   
